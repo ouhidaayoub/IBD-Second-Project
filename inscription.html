@@ -34,22 +34,22 @@
         <table>
             <tr>
                 <td>Full Name:</td>
-                <td><input type="text" name="fullname" value=""></td>
+                <td><input required type="text" name="fullname" value=""></td>
             </tr>
             <tr>
                 <td>Gender:</td>
                 <td>
-                    <input type="radio" name="gender" value="male"> Male
+                    <input required type="radio" name="gender" value="male"> Male
                     <input type="radio" name="gender" value="female"> Female
                 </td>
             </tr>
             <tr>
-                <td>Age:</td>
-                <td><input type="number" name="age" min="0"></td>
+                <td>Age: </td>
+                <td><input required type="number" name="age" min="0"></td>
             </tr>
             <tr>
                 <td>Address:</td>
-                <td><input type="text" name="address" ></td>
+                <td><input required type="text" name="address" ></td>
             </tr>
             <tr>
                 <td>Wilaya:</td>
@@ -120,7 +120,7 @@
             </tr>
             <tr>
                 <td>Profile Photo:</td>
-                <td><input type="file" name="photo"></td>
+                <td><input  type="file" name="photo"></td>
             </tr>
             <tr>
                 <td>Sports Activities:</td>
@@ -134,21 +134,21 @@
             </tr>
             <tr>
                 <td>Password:</td>
-                <td><input type="password" name="password"></td>
+                <td><input required type="password" name="password"></td>
             </tr>
             <tr>
                 <td>Confirm Password:</td>
-                <td><input type="password" name="confirm_password"></td>
+                <td><input required type="password" name="confirm_password"></td>
             </tr>
             <tr>
                 <td>Study Year:</td>
                 <td>
-                    <input type="radio" name="year" value="1"> 1st Year
+                    <input required type="radio" name="year" value="1"> 1st Year
                     <input type="radio" name="year" value="2"> 2nd Year
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align: left;">
+                <td required colspan="2" style="text-align: left;">
                     <button>Cancel</button>
                     <button>Submit</button>
                 </td>
