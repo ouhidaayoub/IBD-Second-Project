@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <style>
+        body {
+            background-color: #90EE90;
+            font-family: cairo;
+        }
+        table {
+            background-color: #F3F781; 
+            border: 0;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0px;
+            border-radius: 0px;
+        }
+        td {
+            padding: 10px;
+        }
+        h2 {
+            text-align: center;
+        }
+        input{
+            border: 1;
+            border-radius: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form for Computer Science Engineer</h2>
+    <form  method="post">
+        <table>
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" name="fullname" value=""></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" name="age" ></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" name="address" ></td>
+            </tr>
+            <tr>
+                <td>Wilaya:</td>
+                <td>
+                    <select name="wilaya">
+                        <option>01- Adrar</option>
+                        <option>02- Chlef</option>
+                        <option>03- Laghouat</option>
+                        <option>04- Oum El Bouaghi</option>
+                        <option>05- Batna</option>
+                        <option>06- Béjaïa</option>
+                        <option>07- Biskra</option>
+                        <option>08- Béchar</option>
+                        <option>09- Blida</option>
+                        <option>10- Bouira</option>
+                        <option>11- Tamanrasset</option>
+                        <option>12- Tébessa</option>
+                        <option>13- Tlemcen</option>
+                        <option>14- Tiaret</option>
+                        <option>15- Tizi Ouzou</option>
+                        <option>16- Alger (Algiers)</option>
+                        <option>17- Djelfa</option>
+                        <option>18- Jijel</option>
+                        <option>19- Sétif</option>
+                        <option>20- Saïda</option>
+                        <option>21- Skikda</option>
+                        <option>22- Sidi Bel Abbès</option>
+                        <option>23- Annaba</option>
+                        <option>24- Guelma</option>
+                        <option>25- Constantine</option>
+                        <option>26- Médéa</option>
+                        <option>27- Mostaganem</option>
+                        <option>28- M’Sila</option>
+                        <option>29- Mascara</option>
+                        <option>30- Ouargla</option>
+                        <option>31- Oran</option>
+                        <option>32- El Bayadh</option>
+                        <option>33- Illizi</option>
+                        <option>34- Bordj Bou Arréridj</option>
+                        <option>35- Boumerdès</option>
+                        <option>36- El Tarf</option>
+                        <option>37- Tindouf</option>
+                        <option>38- Tissemsilt</option>
+                        <option>39- El Oued</option>
+                        <option>40- Khenchela</option>
+                        <option>41- Souk Ahras</option>
+                        <option>42- Tipaza</option>
+                        <option>43- Mila</option>
+                        <option>44- Aïn Defla</option>
+                        <option>45- Naâma</option>
+                        <option>46- Aïn Témouchent</option>
+                        <option>47- Ghardaïa</option>
+                        <option>48- Relizane</option>
+                        <!-- These are additional wilayas created after 2025 -->
+                        <option>59- Aflou</option>
+                        <option>60- El Abiodh Sidi Cheikh</option>
+                        <option>61- El Aricha</option>
+                        <option>62- El Kantara</option>
+                        <option>63- Barika</option>
+                        <option>64- Bou Saâda</option>
+                        <option>65- Bir El Ater</option>
+                        <option>66- Ksar El Boukhari</option>
+                        <option>67- Ksar Chellala</option>
+                        <option>68- Aïn Oussara</option>
+                        <option>69- Messaad</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Profile Photo:</td>
+                <td><input type="file" name="photo"></td>
+            </tr>
+            <tr>
+                <td>Sports Activities:</td>
+                <td>
+                    <input type="checkbox" name="sport" value="Soocer"> Football<br>
+                    <input type="checkbox" name="sport" value="Basketball"> Basketball<br>
+                    <input type="checkbox" name="sport" value="Swimming"> Swimming<br>
+                    <input type="checkbox" name="sport" value="tennis"> Tennis<br>
+                    <input type="checkbox" name="sport" value="handball"> Handball<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>Confirm Password:</td>
+                <td><input type="password" name="confirm_password"></td>
+            </tr>
+            <tr>
+                <td>Study Year:</td>
+                <td>
+                    <input type="radio" name="year" value="1"> 1st Year
+                    <input type="radio" name="year" value="2"> 2nd Year
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    <button>Cancel</button>
+                    <button>Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
