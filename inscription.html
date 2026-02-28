@@ -45,7 +45,7 @@
             </tr>
             <tr>
                 <td>Age:</td>
-                <td><input type="number" name="age" ></td>
+                <td><input type="number" name="age" min="0"></td>
             </tr>
             <tr>
                 <td>Address:</td>
@@ -54,7 +54,8 @@
             <tr>
                 <td>Wilaya:</td>
                 <td>
-                    <select name="wilaya">
+                    <select required>
+                        <option value="" disabled selected>Select Wilaya</option>
                         <option>01- Adrar</option>
                         <option>02- Chlef</option>
                         <option>03- Laghouat</option>
@@ -103,7 +104,6 @@
                         <option>46- Aïn Témouchent</option>
                         <option>47- Ghardaïa</option>
                         <option>48- Relizane</option>
-                        <!-- These are additional wilayas created after 2025 -->
                         <option>59- Aflou</option>
                         <option>60- El Abiodh Sidi Cheikh</option>
                         <option>61- El Aricha</option>
